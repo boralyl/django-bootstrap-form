@@ -33,4 +33,4 @@ Usage
 
 {{ form|bootstrap }}
 
-{{ form.<field name>|bootstrap }} - To output individual fields
+{{ form.<field name>|bootstrap:"css_class1 css_class2" }} - To output individual fields and add css classes to the input/textarea/select
