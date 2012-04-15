@@ -18,7 +18,7 @@ def bootstrapform(element, css_class=""):
         context = Context({'field': element, 'css_class': css_class})
     else:
         template = get_template("bootstrapform/form.html")
-        context = Context({'form': element})
+        context = Context({'form': element, 'css_class': css_class})
 
     return template.render(context)
 

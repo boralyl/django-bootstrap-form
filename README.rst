@@ -33,4 +33,6 @@ Usage
 
 {{ form|bootstrap }}
 
+{{ form|bootstrap:"css_class1 css_class2" }} - To add both classes to all fields in the form
+
 {{ form.<field name>|bootstrap:"css_class1 css_class2" }} - To output individual fields and add css classes to the input/textarea/select
